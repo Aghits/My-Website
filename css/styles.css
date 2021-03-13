@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Light.woff2) format('woff2'),
+         url(../fonts/OpenSans-Light.woff);
+}
+
+* {
+    color: white;
+}
+
+@tailwind utilities;
